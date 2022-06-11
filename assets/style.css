@@ -1,1 +1,83 @@
+#weatherHeader {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(to bottom right, blue , purple);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
 
+#currentWeather {
+    padding: 10px 10px 0px 10px;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 5px;
+    border-style: solid;
+    margin: 10px;
+}
+
+#cityHeader {
+    display: flex;
+}
+
+
+#pastCities {
+    border-top-width: 2px ;
+    border-top-color: black;
+    border-top-style: solid;
+}
+
+.card {
+    color: white;
+    background-color: navy;
+    margin: 5px;
+}
+
+.card img {
+    display: fl;
+}
+
+#UVdiv {
+    display: flex;
+}
+
+#UVvalue {
+    font-size: smaller;
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.green {
+    background-color: green;
+    color: white;
+}
+
+.yellow {
+    background-color: yellow;
+    color: black;
+}
+.orange {
+    background-color: orange;
+    color: black;
+}
+.red {
+    background-color: red;
+    color: white;
+}
+.purple {
+    background-color: purple;
+    color: white;
+}
+
+
+
+#pastCities {
+    display: flex;
+    flex-direction: column;
+}
+
+#pastCities button {
+    margin: 5px;
+}
