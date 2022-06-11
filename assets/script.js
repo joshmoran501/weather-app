@@ -1,5 +1,5 @@
 var searchButton = $(`#searchButton`)
-var APIKey = `c5cb87d9095e41665509b06d9f73e089`
+var APIKey = config.APIKey
 var currentWeather = document.getElementById(`currentWeather`)
 var futureCards = document.getElementById("futureCards")
 var cityArray = JSON.parse(localStorage.getItem("city")) || []
@@ -131,9 +131,7 @@ function displayForecast (cityName, weatherIcon, temperature, wind, humidity, UV
                         <p>Temp: ${dailyMinTemp}-${dailyMaxTemp}&degF</p>
                         <p>Wind: ${dailyWind} mph</p>
                         <p>Humidity: ${dailyHumidity}%</p>
-                    </div>`;
-}}
-
+                    </div>`;}}
 
 displayPastCities ()
 
