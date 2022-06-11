@@ -71,8 +71,6 @@
     color: white;
 }
 
-
-
 #pastCities {
     display: flex;
     flex-direction: column;
@@ -80,4 +78,12 @@
 
 #pastCities button {
     margin: 5px;
+}
+
+#futureCards {
+    margin-right: 10px;
+}
+
+#searchBar {
+    margin-left: 10px;
 }
