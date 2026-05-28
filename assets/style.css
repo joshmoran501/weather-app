@@ -38,39 +38,6 @@
     display: fl;
 }
 
-#UVdiv {
-    display: flex;
-}
-
-#UVvalue {
-    font-size: smaller;
-    margin-left: 5px;
-    padding: 5px;
-    border-radius: 5px;
-}
-
-.green {
-    background-color: green;
-    color: white;
-}
-
-.yellow {
-    background-color: yellow;
-    color: black;
-}
-.orange {
-    background-color: orange;
-    color: black;
-}
-.red {
-    background-color: red;
-    color: white;
-}
-.purple {
-    background-color: purple;
-    color: white;
-}
-
 #pastCities {
     display: flex;
     flex-direction: column;
